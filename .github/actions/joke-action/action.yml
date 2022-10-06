@@ -16,3 +16,4 @@ runs:
     - run: npm i
       shell: bash
     - run: npm run start
+      shell: bash
