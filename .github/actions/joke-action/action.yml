@@ -13,6 +13,8 @@ outputs:
 runs:
   using: "composite"
   steps:
+    - run: ls
+      shell: bash
     - run: npm i
       shell: bash
     - run: npm run start
