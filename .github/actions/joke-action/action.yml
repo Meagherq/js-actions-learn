@@ -13,8 +13,9 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - run: ls
+    - run: ls -la
       shell: bash
+    - run: cd .github/actions/joke-action
     - run: npm i
       shell: bash
     - run: npm run start
